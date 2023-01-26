@@ -135,7 +135,7 @@ nav a:hover {
   text-align: center;
 }
 .sm-home {
-  grid-area: home;
+  grid-area: home;     
   background-color: #ccc;
   line-height: 3em;
 }
