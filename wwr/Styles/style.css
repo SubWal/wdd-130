@@ -1,0 +1,47 @@
+content{
+    max-width: 1600px;
+    margin: 0 auto;
+    
+}
+#background{
+height: 725px;
+}   
+
+
+body {
+    background-color: #A4EAFF ; 
+}
+header {
+    background-color:#8DE5FF;
+}
+nav a:hover {
+    background-color: black; 
+}
+nav a:hover {
+    background-color: white;
+    color: white;
+}    
+.icon {
+    width: 80px;
+}
+
+
+    
+
+
+
+
+
+a {
+    text-align: center;
+    color: #632c2c;
+    text-decoration: none ;
+} 
+
+footer p {
+    font-size: 2em;
+}  
+
+footer p a:hover {
+    text-decoration: underline;
+}  
