@@ -10,6 +10,7 @@ height: 725px;
 
 body {
     background-color: #A4EAFF ; 
+    
 }
 header {
     background-color:#8DE5FF;
@@ -25,17 +26,38 @@ nav a:hover {
     width: 80px;
 }
 
+.logo{
+    max-width: 80px;
+}
 
-    
+main section{
+    text-align: center;
+}
 
+#hero{
+    max-width: 750px;
+    margin:  0 auto;
 
+}
 
+#hero-img{
+    max-width: 750px;
+}
 
+.message{
+    width : auto;
+    height : 500px;
+    background-color: palegoldenrod;
+}
+
+.msg{
+    background-color: #396E94;
+}
 
 a {
     text-align: center;
     color: #632c2c;
-    text-decoration: none ;
+    text-decoration: none;
 } 
 
 footer p {
@@ -43,5 +65,9 @@ footer p {
 }  
 
 footer p a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }  
+
+header, footer{
+    background-color: #396E94;
+}
