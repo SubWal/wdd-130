@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 content{
     max-width: 1600px;
     margin: 0 auto;
@@ -9,14 +10,60 @@ height: 725px;
 
 
 body {
-    background-color: #A4EAFF ; 
+    background-color: #A4EAFF ;
+    margin: 0;
+    padding: 0;
+}  
+h2{
+    margin:0;
+}   
+.book{
+    border-radius: 5px;
+    padding:15px;
+    margin-top: 50px;
     
+
+}
+.join{
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.river-card{
+    margin: 200px;
+}
+
+.card-img{
+    border: 10px solid #632c2c;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.camping-card{
+    margin: 200px;
+}
+
+.rapids-card{
+    margin:200px 0;
 }
 header {
     background-color:#8DE5FF;
+    font-family:Lato, 'Times New Roman', Times, serif, sans-serif; 
+    
 }
-nav a:hover {
-    background-color: black; 
+nav{
+    background-color:#8DE5FF; 
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav a{
+ flex: 25%;
+ padding-top:5px;
+ padding: 35px;
 }
 nav a:hover {
     background-color: white;
@@ -39,7 +86,11 @@ main section{
     margin:  0 auto;
 
 }
-
+.home-title {
+    font-family: arial, verdana, tahoma;
+    font-size: 2em;
+    margin-top: 10px;
+}
 #hero-img{
     max-width: 750px;
 }
@@ -51,7 +102,17 @@ main section{
 }
 
 .msg{
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 35px;
     background-color: #396E94;
+    
+
+    
+
+}
+.msg p{
+    padding-bottom: 15px;
 }
 
 a {
@@ -60,6 +121,14 @@ a {
     text-decoration: none;
 } 
 
+footer{
+    margin-top:200px;
+    padding: 20px 50px;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
 footer p {
     font-size: 2em;
 }  
