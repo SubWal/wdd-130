@@ -5,6 +5,8 @@
   display:grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  justify-content: center;
+  align-content: center;
   gap: 20px;
 }
 .red1 { 
