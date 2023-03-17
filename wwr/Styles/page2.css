@@ -26,8 +26,8 @@ header{
     position: sticky;
     z-index: 1;
     top:0;
-    background-color: #Edefee;
-    opacity: 2;
+    background-color: #396E94;
+    opacity: 0.6;
 }
 
 nav {
@@ -119,7 +119,7 @@ h1,h2,h3,h4, .msg h{
 
 
 footer{
-    background-color: rgb(124, 165, 184, 0.5);
+    background-color: #396E94;
     color : whitesmoke; 
     padding: 25px 50px;
     margin-top: 200px;
@@ -129,6 +129,7 @@ footer{
     transition:0.4s;
     font:var(--heading_font);
     position:relative;
+    opacity: 0.6;
 
 }
 .adver1{
