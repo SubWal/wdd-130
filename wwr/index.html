@@ -9,6 +9,8 @@
 </head>
 <body>
     <header>
+   
+
         
         <a id="logo_link" href="index.html">
             <img class="logo" src="https://byui-wdd.github.io/wdd130/rafting_images/logo.png" alt="Dry Oar Logo">
@@ -29,7 +31,16 @@
             <h1 class="home-title">Have An Adventure</h1>
             <h4>Make Memories with Dry Oar </h4>
             
-            <h4><a class='book' href="contactus.html">Book Now</a></h4>
+            <!-- <h4><a id = "book" class='book' href="contactus.html">Book Now</a></h4> -->
+            <div class="dropdown">
+                <h4><button onclick="myFunction()" class="dropbtn" href="contactus.html">Book Now</button></h4>
+
+                <div id="myDropdown" class="dropdown-content" >
+                  <a href="#">For happiness</a>
+                  <a href="#">For sadness</a>
+                  <a href="#">For rain</a>
+                </div>
+              </div>
             
         </section>
     </div>
@@ -76,4 +87,23 @@
         </div>
     </footer>
 </body>
+<script>
+   function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.ontouchstart = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 </html>
